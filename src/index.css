@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+
+}
+.container1{
+  width: 90%;
+  @apply p-1 m-auto
+}
+.container12{
+  width: 50%;
+  @apply p-1 m-auto
+}
+
+.row1{
+  @apply flex flex-wrap
+}
+
+.h-1002{
+  height: 20rem ;
+  width: 100%;
+
+}
+.w-100{
+
+  width: 100%;
+}
+.fl{
+  float: left;
+}
+.fr{
+  float: right;
+
+}
+.none{
+  display: none;
+}
+
+
+.prodact .btn {
+  transition: transform 1s , opacity 1s;
+  transform: translateY(300%);
+  opacity: 0;
+z-index: 55555555555;
+}
+
+.prodact:hover .btn {
+  opacity: 1;
+  transform: translateY(-80%);
+
+}
+
+
+
+
+.ero{
+  background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
